@@ -7,8 +7,8 @@ No outside packages are required.
 
 def show_project_info():
     """Display basic information about this version-control exercise."""
-    project_name = "My GitHub Practice Project"
-    version = "1.0"
+    project_name = "Module 6 Activity"
+    version = "1.1"
     print(f"Project: {project_name}")
     print(f"Version: {version}")
     print("Git helps track changes in a software project.")
@@ -32,11 +32,11 @@ def main():
     show_git_workflow()
     print()
 
-    # TODO 1: Change the project_name and version values above to your own.
-    # TODO 2: Add a print() statement below that explains, in your own words,
-    #         why it is useful to save your code changes with Git.
+    # TODO: Add a print() statement below that explains, in your own words
+    print("Git helps track changes so developers can review their work and restore earlier versions.")
     # TODO 3: Add another print() statement describing one difference
     #         between git commit and git push.
+    print("git commit saves changes locally, while git push uploads it to github.")    
 
 
 if __name__ == "__main__":
